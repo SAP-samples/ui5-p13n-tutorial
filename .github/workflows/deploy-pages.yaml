@@ -1,0 +1,28 @@
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy-pages:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+
+      - name: Install and build examples
+        run: |
+          mkdir gh-pages
+          zip -r gh-pages/p13n.tutorial.zip exercises/ex01/sample.p13n
+
+          for dir in exercises/ex*; do
+              mkdir -p gh-pages/"$dir"/sample.p13n
+              cd "$dir"/sample.p13n
+              npm install
+              npm run build
+              mv dist ../../../gh-pages/"$dir"/sample.p13n
+              cd ../../..
+          done
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: gh-pages
