@@ -1,0 +1,2 @@
+"use strict";sap.ui.define(["sap/ui/core/mvc/Controller"],function(n){"use strict";const t=n.extend("sample.p13n.app.controller.MountainsController",{onInit:function n(){},onP13nPress:function n(t){const o=this.byId("table");o.openP13n(t)}});return t});
+//# sourceMappingURL=Mountains.controller.js.map
