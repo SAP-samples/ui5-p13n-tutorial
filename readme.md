@@ -24,7 +24,7 @@ You will be lead through the enablement of a custom control using the assets pro
 ## Final Application
 This is the application you build during the tutorial:
 
-![Sample Application](screenshots/readme_1.png)
+![Sample Application](images/readme_1.png)
 
 [Have a look now!](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex11/sample.p13n/dist)
 
