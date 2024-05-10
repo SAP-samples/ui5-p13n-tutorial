@@ -1,0 +1,37 @@
+on:
+  push:
+    branches:
+      - typescript-and-es8-changes
+jobs:
+  on-commit:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+          cache-dependency-path: 'sample.p13n/package-lock.json'
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          cd exercises/ex01
+          zip -r ../../p13n.tutorial.zip sample.p13n
+          cd ../../
+          git add p13n.tutorial.zip
+          git commit -m "update p13n.tutorial.zip"
+          mkdir tmp
+          cp exercises/ex01/sample.p13n/*.* tmp
+          cd tmp
+          npm i
+          mkdir webapp
+          for dir in ../exercises/ex*; do
+              cp -r "$dir"/sample.p13n/webapp/* ./webapp
+              npm run build
+              mv dist "$dir"/sample.p13n/
+              rm -rf webapp/*
+          done
+          cd ../
+          rm -rf tmp
+          git add exercises
+          git commit -m "update ghpages"
+          git push -f origin typescript-and-es8-changes:ghpages
