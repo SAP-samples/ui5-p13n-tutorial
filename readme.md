@@ -11,22 +11,22 @@ You will be lead through the enablement of a custom control using the assets pro
 
 ## Exercises
 1. [Setup the Application](exercises/ex01/)
-1. [Custom Table for P13n](exercises/ex02/) (*[sources](/exercises/ex02/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex02/sample.p13n/dist)*)
-1. [Engine Registration](exercises/ex03/) (*[sources](/exercises/ex03/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex03/sample.p13n/dist)*)
-1. [Column Selection](exercises/ex04/) (*[sources](/exercises/ex04/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex04/sample.p13n/dist)*)
-1. [Sorting and Grouping](exercises/ex05/) (*[sources](/exercises/ex05/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex05/sample.p13n/dist)*)
-1. [Filtering & Info Toolbar](exercises/ex06/) (*[sources](/exercises/ex06/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex06/sample.p13n/dist)*)
-1. [Changing Control State](exercises/ex07/) (*[sources](/exercises/ex07/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex07/sample.p13n/dist)*)
-1. [VariantManagement](exercises/ex08/) (*[sources](/exercises/ex08/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex08/sample.p13n/dist)*)
-1. [(optional) Custom Filter Control](exercises/ex09/) (*[sources](/exercises/ex09/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex09/sample.p13n/dist)*)
-1. [(optional) Filtering with GridList](exercises/ex10/) (*[sources](/exercises/ex10/sample.p13n/), [run app](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex10/sample.p13n/dist)*)
+1. [Custom Table for P13n](exercises/ex02/) (*[sources](/exercises/ex02/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex02/sample.p13n/dist)*)
+1. [Engine Registration](exercises/ex03/) (*[sources](/exercises/ex03/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex03/sample.p13n/dist)*)
+1. [Column Selection](exercises/ex04/) (*[sources](/exercises/ex04/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex04/sample.p13n/dist)*)
+1. [Sorting and Grouping](exercises/ex05/) (*[sources](/exercises/ex05/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex05/sample.p13n/dist)*)
+1. [Filtering & Info Toolbar](exercises/ex06/) (*[sources](/exercises/ex06/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex06/sample.p13n/dist)*)
+1. [Changing Control State](exercises/ex07/) (*[sources](/exercises/ex07/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex07/sample.p13n/dist)*)
+1. [VariantManagement](exercises/ex08/) (*[sources](/exercises/ex08/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex08/sample.p13n/dist)*)
+1. [(optional) Custom Filter Control](exercises/ex09/) (*[sources](/exercises/ex09/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex09/sample.p13n/dist)*)
+1. [(optional) Filtering with GridList](exercises/ex10/) (*[sources](/exercises/ex10/sample.p13n/), [run app](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex10/sample.p13n/dist)*)
 
 ## Final Application
 This is the application you build during the tutorial:
 
 ![Sample Application](images/readme_1.png)
 
-[Have a look now!](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/exercises/ex11/sample.p13n/dist)
+[Have a look now!](https://vigilant-adventure-yrgz2ee.pages.github.io/exercises/ex11/sample.p13n/dist)
 
 ## Requirements
 ### Technical Requirements

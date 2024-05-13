@@ -18,7 +18,7 @@ This command should display the installed version of Node.js.
 
 Next, we will download the project files contained in a .zip file.
 
-- Download the project files from [p13n.tutorial.zip](https://pages.github.tools.sap/I516182/openui5-P13nify-Everything/p13n.tutorial.zip).
+- Download the project files from [p13n.tutorial.zip](https://vigilant-adventure-yrgz2ee.pages.github.io/p13n.tutorial.zip).
 - Once the download is complete, navigate to the download location and extract the .zip file.
 
 ## Step 3: Open the Project Folder
