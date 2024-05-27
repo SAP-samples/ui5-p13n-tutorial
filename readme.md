@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/ui5-p13n-tutorial)](https://api.reuse.software/info/github.com/sap-samples/ui5-p13n-tutorial)
+
 # P13nify Everything - Personalization for Any Control
 
 ## Description
