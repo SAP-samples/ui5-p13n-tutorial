@@ -91,7 +91,7 @@ You'll notice that `state.Filter` is marked as a TypeScript error, we have to ad
 
 ````ts
 export interface P13nTableState extends State {
-	Columns: ColumnState[],
+	Columns: SelectionState[],
 	Sorter: SortState[],
 	Groups: GroupState[],
 	Filter: FilterState
