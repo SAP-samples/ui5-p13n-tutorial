@@ -19,10 +19,7 @@ this.engine.register(this, {
 	controller: {
 		Columns: new SelectionController({
 			control: this,
-			targetAggregation: "columns",
-			getKeyForItem: (column: Column) => {
-				return column.data("p13nKey")
-			}
+			targetAggregation: "columns"
 		}),
 		Sorter: new SortController({
 			control: this

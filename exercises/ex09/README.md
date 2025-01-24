@@ -116,10 +116,7 @@ export default class MountainsController extends Controller {
 			controller: {
 				Items: new SelectionController({
 					control: gridList,
-					targetAggregation: "items",
-					getKeyForItem: (gridListItem: GridListItem) => {
-						return gridListItem.getSelected()
-					}
+					targetAggregation: "items"
 				})
 			}
 		})
