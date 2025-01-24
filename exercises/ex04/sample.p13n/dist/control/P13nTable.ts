@@ -56,10 +56,7 @@ export default class P13nTable extends Table {
 				// @ts-ignore TODO: FIX constructor
 				Columns: new SelectionController({
 					control: this,
-					targetAggregation: "columns",
-					getKeyForItem: (column: Column) => {
-						return column.data("p13nKey")
-					}
+					targetAggregation: "columns"
 				})
 			}
 		})

@@ -63,10 +63,7 @@ export default class P13nTable extends Table {
 			controller: {
 				Columns: new SelectionController({
 					control: this,
-					targetAggregation: "columns",
-					getKeyForItem: (column: Column) => {
-						return column.data("p13nKey")
-					}
+					targetAggregation: "columns"
 				}),
 				Sorter: new SortController({
 					control: this

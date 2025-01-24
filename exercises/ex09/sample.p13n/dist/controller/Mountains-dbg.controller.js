@@ -29,10 +29,7 @@ sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/MessageToast", "sap/m/p13n/S
         controller: {
           Items: new SelectionController({
             control: gridList,
-            targetAggregation: "items",
-            getKeyForItem: gridListItem => {
-              return gridListItem.getSelected();
-            }
+            targetAggregation: "items"
           })
         }
       });

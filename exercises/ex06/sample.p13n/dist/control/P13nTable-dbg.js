@@ -37,10 +37,7 @@ sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionControll
         controller: {
           Columns: new SelectionController({
             control: this,
-            targetAggregation: "columns",
-            getKeyForItem: column => {
-              return column.data("p13nKey");
-            }
+            targetAggregation: "columns"
           }),
           Sorter: new SortController({
             control: this
