@@ -33,7 +33,6 @@ export default class P13nTable extends Table {
 
 	constructor(id?: string, settings?: $TableSettings) {
 		super(id, settings)
-		// @ts-ignore  TODO: FIX static method declaration
 		this.engine = Engine.getInstance()
 		this.initialized = new Promise((resolve: () => void): void => {
 			this.attachEventOnce("updateFinished", (): void => {

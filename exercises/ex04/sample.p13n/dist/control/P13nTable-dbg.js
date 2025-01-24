@@ -10,7 +10,6 @@ sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionControll
     renderer: "sap/m/TableRenderer",
     constructor: function _constructor(id, settings) {
       Table.prototype.constructor.call(this, id, settings);
-      // @ts-ignore  TODO: FIX static method declaration
       this.engine = Engine.getInstance();
       this.initialized = new Promise(resolve => {
         this.attachEventOnce("updateFinished", () => {
@@ -31,13 +30,10 @@ sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionControll
           path: innerControl.getBinding(innerControl.isA("sap.m.ObjectIdentifier") ? "title" : "text").getPath()
         };
       });
-
-      // @ts-ignore TODO: FIX constructor
       this.helper = new MetadataHelper(columnsMetadata);
       this.engine.register(this, {
         helper: this.helper,
         controller: {
-          // @ts-ignore TODO: FIX constructor
           Columns: new SelectionController({
             control: this,
             targetAggregation: "columns"

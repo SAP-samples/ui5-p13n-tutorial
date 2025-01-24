@@ -10,7 +10,6 @@ sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionControll
     renderer: "sap/m/TableRenderer",
     constructor: function _constructor(id, settings) {
       Table.prototype.constructor.call(this, id, settings);
-      // @ts-ignore  TODO: FIX static method declaration
       this.engine = Engine.getInstance();
       this.initialized = new Promise(resolve => {
         this.attachEventOnce("updateFinished", () => {
