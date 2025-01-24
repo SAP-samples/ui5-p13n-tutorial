@@ -1,7 +1,6 @@
 import Table, { $TableSettings } from "sap/m/Table"
 import Engine, { State } from "sap/m/p13n/Engine"
 import SelectionController from "sap/m/p13n/SelectionController"
-// @ts-ignore TODO: FIX export of MetadataObject type
 import MetadataHelper, { MetadataObject } from "sap/m/p13n/MetadataHelper"
 import Column from "sap/m/Column"
 import Text from "sap/m/Text"
@@ -24,7 +23,6 @@ export default class P13nTable extends Table {
 
 	constructor(id?: string, settings?: $TableSettings) {
 		super(id, settings)
-		// @ts-ignore  TODO: FIX static method declaration
 		this.engine = Engine.getInstance()
 		this.initialized = new Promise((resolve: () => void): void => {
 			this.attachEventOnce("updateFinished", (): void => {
@@ -47,13 +45,11 @@ export default class P13nTable extends Table {
 			}
 		})
 
-		// @ts-ignore TODO: FIX constructor
 		this.helper = new MetadataHelper(columnsMetadata)
 
 		this.engine.register(this, {
 			helper: this.helper,
 			controller: {
-				// @ts-ignore TODO: FIX constructor
 				Columns: new SelectionController({
 					control: this,
 					targetAggregation: "columns",
