@@ -1,5 +1,3 @@
-"use strict";
-
 sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionController", "sap/m/p13n/MetadataHelper", "sap/m/p13n/SortController", "sap/m/p13n/GroupController", "sap/ui/model/Sorter"], function (Table, Engine, SelectionController, MetadataHelper, SortController, GroupController, Sorter) {
   "use strict";
 

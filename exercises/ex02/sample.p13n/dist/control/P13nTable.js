@@ -1,2 +1,2 @@
-"use strict";sap.ui.define(["sap/m/Table"],function(e){"use strict";const t=e.extend("sample.p13n.app.control.P13nTable",{renderer:"sap/m/TableRenderer",constructor:function t(n,r){e.prototype.constructor.call(this,n,r)}});return t});
+sap.ui.define(["sap/m/Table"],function(e){"use strict";const n=e.extend("sample.p13n.app.control.P13nTable",{renderer:"sap/m/TableRenderer",constructor:function n(t,r){e.prototype.constructor.call(this,t,r)}});return n});
 //# sourceMappingURL=P13nTable.js.map

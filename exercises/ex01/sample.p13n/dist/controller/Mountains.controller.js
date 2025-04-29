@@ -1,2 +1,2 @@
-"use strict";sap.ui.define(["sap/ui/core/mvc/Controller"],function(n){"use strict";const t=n.extend("sample.p13n.app.controller.MountainsController",{onInit:function n(){}});return t});
+sap.ui.define(["sap/ui/core/mvc/Controller"],function(n){"use strict";const o=n.extend("sample.p13n.app.controller.MountainsController",{onInit:function n(){}});return o});
 //# sourceMappingURL=Mountains.controller.js.map

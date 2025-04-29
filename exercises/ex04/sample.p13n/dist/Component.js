@@ -1,2 +1,2 @@
-"use strict";sap.ui.define(["sap/ui/core/UIComponent"],function(t){"use strict";const i=t.extend("sample.p13n.app.Component",{metadata:{manifest:"json"},init:function i(){t.prototype.init.call(this);this.getRouter().initialize()}});return i});
+sap.ui.define(["sap/ui/core/UIComponent"],function(t){"use strict";const n=t.extend("sample.p13n.app.Component",{metadata:{manifest:"json"},init:function n(){t.prototype.init.call(this);this.getRouter().initialize()}});return n});
 //# sourceMappingURL=Component.js.map

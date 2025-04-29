@@ -1,5 +1,3 @@
-"use strict";
-
 sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionController", "sap/m/p13n/MetadataHelper", "sap/m/Text", "sap/m/p13n/SortController", "sap/m/p13n/GroupController", "sap/ui/model/Sorter", "sap/m/p13n/FilterController", "sap/ui/model/Filter", "sap/m/OverflowToolbar", "sap/m/Label"], function (Table, Engine, SelectionController, MetadataHelper, Text, SortController, GroupController, Sorter, FilterController, Filter, OverflowToolbar, Label) {
   "use strict";
 

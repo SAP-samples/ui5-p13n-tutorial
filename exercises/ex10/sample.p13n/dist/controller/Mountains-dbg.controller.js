@@ -1,5 +1,3 @@
-"use strict";
-
 sap.ui.define(["sap/ui/core/mvc/Controller", "sap/m/MessageToast", "sap/m/p13n/Engine", "sap/m/p13n/MetadataHelper", "sap/m/p13n/SelectionController", "sap/ui/core/Element", "sap/ui/model/Filter"], function (Controller, MessageToast, Engine, MetadataHelper, SelectionController, Element, Filter) {
   "use strict";
 

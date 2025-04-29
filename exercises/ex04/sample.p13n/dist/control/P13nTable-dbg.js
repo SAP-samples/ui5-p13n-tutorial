@@ -1,5 +1,3 @@
-"use strict";
-
 sap.ui.define(["sap/m/Table", "sap/m/p13n/Engine", "sap/m/p13n/SelectionController", "sap/m/p13n/MetadataHelper"], function (Table, Engine, SelectionController, MetadataHelper) {
   "use strict";
 
